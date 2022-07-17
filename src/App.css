@@ -1,0 +1,20 @@
+/* Import font-face */
+@font-face {
+	font-family: "Electrofied";
+	src: local("Electrofied"), url("./fonts/electr.ttf") format("truetype");
+}
+
+body {
+	font-family: "Electrofied";
+	background-color: rgba(0, 0, 0, 0.87);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.hidden {
+	visibility: hidden;
+}
